@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script src="node_modules/moment/moment.js"></script>
+<script src="node_modules/moment-timezone/moment-timezone.js"></script>
+<script src="node_modules/moment-timezone/builds/moment-timezone-with-data.js"></script>
+<script>
+
+console.log('Europe/Moscow',moment().tz('Europe/Moscow').format());
+console.log('Europe/Samara',moment().tz('Europe/Samara').format());
+console.log('Asia/Yekaterinburg',moment().tz('Asia/Yekaterinburg').format());
+console.log('Asia/Vladivostok',moment().tz('Asia/Vladivostok').format());
+console.log('Europe/Simferopol',moment().tz('Europe/Simferopol').format());
+console.log('New_York',moment().tz('America/New_York').format());
+console.log('Los_Angeles',moment().tz('America/Los_Angeles').format());
+
+
+</script>
+</html>
